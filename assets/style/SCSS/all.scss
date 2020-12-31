@@ -1,0 +1,13 @@
+// 變數
+@import 'variable';
+
+// 套件
+@import "vendors/bootstrap/bootstrap";
+@import "vendors/aos/aos";
+
+// 全站設定
+@import 'base';
+
+// 網頁佈局
+@import 'layout';
+@import './pages/index';

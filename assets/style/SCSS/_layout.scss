@@ -1,0 +1,65 @@
+.sidebar{
+    width: 296px;
+    height: 100vh;
+    background: $bg_secondary;
+}
+
+.logo{
+    display: block;
+    height: 40px;
+    width: 151px;
+    background-image: url(../images/logo-ANSWER.svg);
+  
+    overflow: hidden;
+    text-indent: 101%;
+    white-space: nowrap;
+}
+
+
+
+.mainMenu__btn{
+    
+    border-left: 4px solid $bg_secondary;
+
+    & a{
+        display: block;
+        line-height: 24px;
+        font-weight: bold;
+        color: $text_primary;
+
+        &:hover{
+            text-decoration:none;
+            color: $using_primary;
+        }
+    }
+
+
+    &.using{
+        border-left: 4px solid $using_primary;
+
+        & a{
+            color: $using_primary;
+        }
+    }
+}
+
+.profile__picture{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.profile__name{
+    line-height: 20px;
+    margin: 0px;
+}
+
+.profile__mail{
+    line-height: 20px;
+    margin: 0px;
+    color: $text_secondary;
+    &:hover{
+        text-decoration:none;
+    }
+}
+
